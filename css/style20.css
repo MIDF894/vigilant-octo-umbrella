@@ -1,0 +1,251 @@
+body{
+    background-image: url("https://get.wallhere.com/photo/black-monochrome-minimalism-wall-bricks-pattern-texture-circle-tile-Brick-material-shape-floor-line-walls-number-1920x1080-px-font-flooring-572351.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    color: deeppink;
+    text-align: center;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+i{
+    font-size: 50px;
+    /*margin: 10px;
+    position: relative;
+    left: 500px;
+    bottom: 50px;*/
+    margin: 10px;
+    float: right;
+}
+
+.future{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.zaeb{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shit{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 10px;
+}
+
+.shitbox:nth-child(-n + 5){
+    margin-bottom: 20px;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.line:nth-child(-n+3){
+    margin-bottom: 20px;
+}
+
+.colmn:nth-child(-n+5){
+    margin-right: 10px;
+}
+
+.colmn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    background-image: url("https://avatars.mds.yandex.net/i?id=9a39cabf99da9c8088d1e73ea422d76ff944d9e2-5009080-images-thumbs&n=13");
+    border-radius: 14px;
+
+}
+
+.colmn:hover{
+    -webkit-box-shadow: 0 0 8px 5px rgba(68,242,0,0.93) ;
+    box-shadow: 0 0 8px 5px rgba(68,242,0,0.93) ;
+    color: rgba(68,242,0,0.93) ;
+}
+
+.colmn:active{
+    -webkit-box-shadow: 0 0 8px 5px rgb(255, 20, 147) ;
+    box-shadow: 0 0 8px 5px rgb(255, 20, 147) ;
+    color: rgb(255, 20, 147) ;
+}
+
+hr{
+    height: 2px;
+    border: none;
+    background-color: deeppink;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    font-size: 25px;
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(68,242,0,0.93);
+}
+
+a:active{
+    color: deeppink;
+}
+
+input{
+    color: deeppink;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img{
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.frm{
+    font-size: 35px;
+}
+
+.price{
+    font-size: 30px;
+}
+
+div > a{
+    margin-bottom: 10px;
+}
+
+.OOO{
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.frm:nth-child(1){
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1900px){
+    .shit{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .price{
+    font-size: 5px;
+    }
+
+    img{
+    height: 50px;
+    width: 60px;
+    }
+
+    a{
+    font-size: 15px;
+    color: deeppink;
+    }
+
+    .colmn{
+        width: 60px;
+
+    }
+}
+
+@media screen and (max-width: 830px){
+    .price{
+    font-size: 5px;
+    }
+
+    img{
+    height: 50px;
+    width: 60px;
+    }
+
+    a{
+    font-size: 15px;
+    color: deeppink;
+    }
+
+    .colmn{
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    .price{
+    font-size: 10px;
+    }
+
+    img{
+    height: 150px;
+    width: 160px;
+    }
+
+    a{
+    font-size: 15px;
+    color: deeppink;
+    }
+
+    .colmn{
+        width: 160px;
+    }
+}
+
+form, fieldset{
+    border: none;
+}
+
+.buy{
+    width: 500px;
+    height: 50px;
+    border: 2px solid;
+    background-image: url("https://avatars.mds.yandex.net/i?id=9a39cabf99da9c8088d1e73ea422d76ff944d9e2-5009080-images-thumbs&n=13");
+}
+
+.buy:hover{
+    border: 2px solid rgba(68,242,0,0.93) ;
+    color: rgba(68,242,0,0.93) ;
+    -webkit-box-shadow: 0 0 8px 5px rgba(68,242,0,0.93) ;
+    box-shadow: 0 0 8px 5px rgba(68,242,0,0.93) ;
+}
+
+.buy:active{
+    border: 2px solid rgb(255, 20, 147) ;
+    color: rgb(255, 20, 147) ;
+    -webkit-box-shadow: 0 0 8px 5px rgb(255, 20, 147) ;
+    box-shadow: 0 0 8px 5px rgb(255, 20, 147) ;
+}
